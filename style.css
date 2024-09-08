@@ -1,0 +1,104 @@
+/* Resetting margins and padding for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Container Styling */
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title Styling */
+h1 {
+  font-size: 2em;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* Input and Select Styling */
+div {
+  margin: 20px 0;
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+select,
+input {
+  width: calc(100% - 90px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+select:focus,
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Button Styling */
+button {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Access Message Styling */
+p.accessMessage {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Access Level Colors */
+.full-access-Green {
+  color: #28a745;
+}
+
+.member-access-Blue {
+  color: #007bff;
+}
+
+.guest-access-Orange {
+  color: #fd7e14;
+}
+
+.no-access-Red {
+  color: #dc3545;
+}
